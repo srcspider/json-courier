@@ -33,8 +33,8 @@ On the server, all api requests come in the form of,
 
 ```json
 {
-	"auth" : [ value of api.auth() ], 
-	"data" : [ the payload ]
+	"auth" : "[ value of api.auth() ]", 
+	"data" : "[ the payload ]"
 }
 ```
 
