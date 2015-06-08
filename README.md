@@ -1,4 +1,5 @@
-`json-courier` is a utility library for creating simple APIs.
+`json-courier` is a utility library for creating handling on the client for 
+simple APIs.
 
 Only the `POST` method and `JSON` format are supported. This limitation is intentional; this small library is designed to help with the boring parts not do everything.
 

@@ -1,7 +1,7 @@
 {
   "name": "json-courier",
-  "version": "0.0.1",
-  "description": "easy api library",
+  "version": "1.0.0",
+  "description": "simple APIs client",
   "main": "index.js",
   "dependencies": {
     "lodash.merge": "^3.3.1",
