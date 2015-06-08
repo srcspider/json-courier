@@ -10,7 +10,7 @@ var courier = require('json-courier');
 var api = courier('/api/1.0');
 
 var ExampleRepo = function () {
-	// empty
+	// the type's constructor
 };
 
 ExampleRepo.prototype = {
