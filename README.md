@@ -16,7 +16,8 @@ var ExampleRepo = function () {
 ExampleRepo.prototype = {
 
 	// accepts is an array of status'es that should go though resolve,
-	// everything thats not in status goes though reject path
+	// everything thats not in accepts goes though reject path; errors also
+	// go though reject path (you can check for "stack" prop to diferentiate)
 	list: function (payload, accepts) {
 		// a promise will be returned; the lie library is used under the hood
 		return api.req('example/list', payload, accepts);
@@ -73,6 +74,10 @@ Example error:
 	"data"   : "Example error"
 }
 ```
+
+You can have any `status` you wish. It's recomended you don't hardcode the 
+`accepts` value when defining the API on the client side; it's better for
+the calling code to specify what `status` it's capable of accepting.
 
 ## Domain
 
