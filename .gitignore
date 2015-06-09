@@ -2,6 +2,7 @@
 # it's not really necesery to include everything under the sun
 
 node_modules
+!src/node_modules
 
 # Operating System Files
 # ------------------------
